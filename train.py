@@ -197,5 +197,3 @@ class trainXY:
 			print self.Most_Common(p_label,rank=1)# change rank to 2 to get the second most common match
 	
 
-trainer=trainXY()
-trainer.test()
