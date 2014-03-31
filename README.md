@@ -20,13 +20,19 @@ The training consists of:
 
 
 1	extracting dense SIFT features from all training images.
+
 2	Saving data to file.
+
 3	Feeding the Logistic regression model with data.
+
 4	Saving the model.
 
 
 Testing consists of:
 
 1	Extracting dense SIFT from a test image.
+
 2	testing the saved model with the test image.
+
 3	Output : predicted labels.
+
