@@ -1,4 +1,4 @@
-Imageclassifier-
+Image-Classifier
 ================
 To run this program you need: 
 
@@ -6,12 +6,23 @@ To run this program you need:
 2-liblinear
 3-PIL
 
-This program trains a logisitic regression classifer to differentiate between images.
-Simply put your data in the data/train dir as specified and run 
+This program trains a logistic regression classifier to differentiate between images.
+Simply put your data in the data/train Directory as specified and type: 
 
 python training.py
 
-To test the classifer. put new images in the data/test dir and run
+To test the classier. put new images in the data/test dir and type:
 
 python classify.py
 
+The training consists of: 
+
+1	extracting dense SIFT features from all training images
+2	Saving data to file
+3	Feeding the Logistic regression model with data.
+4	Saving the model
+
+Testing consists of:
+1	Extracting dense SIFT from a test image
+2	testing the saved model with the test image.
+3	Output : predicted labels 
