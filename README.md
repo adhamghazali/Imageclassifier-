@@ -1,13 +1,18 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+  <title>New</title>
+  <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/">
+</head>
 
-<p><span style="font-size: 32pt">IMAGE-Classifier </span></p>
+<body>
+<h4><span style="font-size: 32pt">IMAGE-Classifier</span></h4>
 
-<p>_____________________________________________________________________</p>
-
-<p>To run this program you need: </p>
+<h1><span style="font-size: 16pt">To run this program you need:</span></h1>
 <ol>
-  <li>python 2.7. </li>
-  <li>liblinear.  </li>
-  <li>PIL. </li>
+  <li>python 2.7.</li>
+  <li>liblinear. </li>
+  <li>PIL.</li>
 </ol>
 
 <p>This program trains a logistic regression classifier to differentiate
@@ -28,27 +33,22 @@ and type:</p>
 
 <p>The training consists of:</p>
 
-<p></p>
-
-<p>1 extracting dense SIFT features from all training images.</p>
-
-<p>2 Saving data to file.</p>
-
-<p>3 Feeding the Logistic regression model with data.</p>
-
-<p>4 Saving the model.</p>
+<h1></h1>
+<ol>
+  <li>extracting dense SIFT features from all training images.</li>
+  <li>Saving data to file.</li>
+  <li>Feeding the Logistic regression model with data.</li>
+  <li>Saving the model.</li>
+</ol>
 
 <p></p>
 
-<p>Testing consists of:</p>
-
-<p></p>
-
-<p>1 Extracting dense SIFT from a test image.</p>
-
-<p>2 testing the saved model with the test image.</p>
-
-<p>3 Output : predicted labels.</p>
+<h1>Testing consists of:</h1>
+<ol>
+  <li>Extracting dense SIFT from a test image.</li>
+  <li>testing the saved model with the test image.</li>
+  <li>Output : predicted labels.</li>
+</ol>
 
 <p></p>
 
