@@ -5,7 +5,7 @@ to run this program you need:
 -liblinear
 -PIL
 
-This program trains a logisitic regression classifer to differentiate between image.
+This program trains a logisitic regression classifer to differentiate between images.
 Simply put your data in the data/train direrector as specified and run 
 python training:.py
 
