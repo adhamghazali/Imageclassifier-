@@ -9,7 +9,7 @@ To run this program you need:
 This program trains a logisitic regression classifer to differentiate between images.
 Simply put your data in the data/train dir as specified and run 
 
-python training:.py
+python training.py
 
 To test the classifer. put new images in the data/test dir and run
 
