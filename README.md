@@ -1,23 +1,13 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-  <title>New</title>
-  <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
-</head>
 
-<body>
 <p><span style="font-size: 32pt">IMAGE-Classifier </span></p>
 
-<p>_____________________________________________________________________-</p>
+<p>_____________________________________________________________________</p>
 
-<p>To run this program you need:</p>
+<p>To run this program you need: </p>
 <ol>
-  <li>python 2.7.</li>
-  <li>liblinear. </li>
-  <li>PIL.</li>
+  <li>python 2.7. </li>
+  <li>liblinear.  </li>
+  <li>PIL. </li>
 </ol>
 
 <p>This program trains a logistic regression classifier to differentiate
