@@ -7,7 +7,7 @@ To run this program you need:
 3-PIL
 
 This program trains a logisitic regression classifer to differentiate between images.
-Simply put your data in the data/train direrector as specified and run 
+Simply put your data in the data/train dir as specified and run 
 
 python training:.py
 
