@@ -1,14 +1,14 @@
+
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-  <title>New</title>
   <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/">
 </head>
 
 <body>
-<h4><span style="font-size: 32pt">IMAGE-Classifier</span></h4>
+<h1><span style="font-size: 32pt">IMAGE-Classifier</span></h1>
 
-<h1><span style="font-size: 16pt">To run this program you need:</span></h1>
+<p>To run this program you need:</p>
 <ol>
   <li>python 2.7.</li>
   <li>liblinear. </li>
@@ -32,8 +32,6 @@ and type:</p>
 <p></p>
 
 <p>The training consists of:</p>
-
-<h1></h1>
 <ol>
   <li>extracting dense SIFT features from all training images.</li>
   <li>Saving data to file.</li>
@@ -41,16 +39,12 @@ and type:</p>
   <li>Saving the model.</li>
 </ol>
 
-<p></p>
-
-<h1>Testing consists of:</h1>
+<p>Testing consists of:</p>
 <ol>
   <li>Extracting dense SIFT from a test image.</li>
   <li>testing the saved model with the test image.</li>
   <li>Output : predicted labels.</li>
 </ol>
-
-<p></p>
 
 <p></p>
 </body>
